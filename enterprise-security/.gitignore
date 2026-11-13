@@ -1,0 +1,7 @@
+@"
+venv/
+__pycache__/
+leave.db
+sync_state.json
+sandbox_drive/
+"@ | Out-File -Encoding ascii .gitignore
