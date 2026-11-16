@@ -2,15 +2,15 @@
 
 | Question | Faith. | Ctx Prec. | Ctx Recall | Failure type |
 |---|---|---|---|---|
-| How many days of annual leave do employees get per year? | n/a | n/a | n/a | Generation |
-| How many unused leave days can be carried forward? | n/a | n/a | n/a | Generation |
-| When is a medical certificate required for sick leave? | n/a | n/a | n/a | Generation |
+| What is the dress code for client meetings? | 0.00 | 0.00 | 0.00 | Retrieval |
+| What is the stock option vesting schedule? | 0.00 | 0.00 | 0.00 | Retrieval |
+| How many work-from-home days are allowed per week? | 0.00 | 0.00 | 0.00 | Retrieval |
 
-**Fixed:** How many days of annual leave do employees get per year?
+**Fixed:** What is the dress code for client meetings?
 
-Generation fix: strict grounded prompt (use only context, one short sentence).
+Retrieval fix: re-chunked with 60-word chunks + 15-word overlap (Config B retriever).
 
 | | Faith. | Ctx Prec. | Ctx Recall |
 |---|---|---|---|
-| Before | nan | nan | nan |
-| After | nan | nan | nan |
+| Before | 0.00 | 0.00 | 0.00 |
+| After | 0.00 | 0.00 | 0.00 |
