@@ -1,0 +1,15 @@
+{"question": "How many days of annual leave do employees get per year?", "ground_truth": "Employees get 24 days of annual leave per year.", "source": "leave_policy.txt", "answerable": true}
+{"question": "How many unused leave days can be carried forward?", "ground_truth": "Up to 10 unused leave days can be carried forward, and they expire on 31 March.", "source": "leave_policy.txt", "answerable": true}
+{"question": "When is a medical certificate required for sick leave?", "ground_truth": "A medical certificate is required for absences longer than 2 consecutive days.", "source": "leave_policy.txt", "answerable": true}
+{"question": "How far in advance must leave requests be submitted?", "ground_truth": "At least 5 working days in advance through the HR portal.", "source": "leave_policy.txt", "answerable": true}
+{"question": "What is the daily meal reimbursement limit during business travel?", "ground_truth": "Meals are reimbursed up to 1500 rupees per day.", "source": "expense_policy.txt", "answerable": true}
+{"question": "What is the hotel limit per night in metro cities?", "ground_truth": "Hotel stays are reimbursed up to 6000 rupees per night in metro cities.", "source": "expense_policy.txt", "answerable": true}
+{"question": "Within how many days must expense claims be submitted?", "ground_truth": "Within 30 days of the spend, with original receipts attached.", "source": "expense_policy.txt", "answerable": true}
+{"question": "Who must approve claims above 25000 rupees?", "ground_truth": "The finance director must approve claims above 25000 rupees.", "source": "expense_policy.txt", "answerable": true}
+{"question": "What is the minimum password length?", "ground_truth": "Passwords must be at least 12 characters long.", "source": "it_security_policy.txt", "answerable": true}
+{"question": "Where is multi-factor authentication mandatory?", "ground_truth": "Multi-factor authentication is mandatory for VPN and email access.", "source": "it_security_policy.txt", "answerable": true}
+{"question": "Within how many hours must a lost laptop be reported?", "ground_truth": "A lost or stolen laptop must be reported to the IT helpdesk within 2 hours.", "source": "it_security_policy.txt", "answerable": true}
+{"question": "How often are company laptops refreshed?", "ground_truth": "Company laptops are refreshed every 3 years.", "source": "it_security_policy.txt", "answerable": true}
+{"question": "What is the stock option vesting schedule?", "ground_truth": "I don't know", "source": "none (unanswerable)", "answerable": false}
+{"question": "How many work-from-home days are allowed per week?", "ground_truth": "I don't know", "source": "none (unanswerable)", "answerable": false}
+{"question": "What is the dress code for client meetings?", "ground_truth": "I don't know", "source": "none (unanswerable)", "answerable": false}
